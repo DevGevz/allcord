@@ -69,14 +69,6 @@ html {
     margin-right: auto;
   }
   
-  button {
-    border-radius: 10%;
-    color: black;
-    background-color: rgb(255, 255, 255);
-    width: 100%;
-    height: 50px;
-    opacity: 65%;
-  }
   
   .parent {
     border: 3px white solid;
