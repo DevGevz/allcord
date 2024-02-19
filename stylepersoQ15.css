@@ -1,0 +1,69 @@
+body{
+    background-image: url("./R.jpeg");
+    width: 100%;
+    height: 100%;
+}
+h1{
+    color :orange ; /*Définition de la couleur de la police */
+    background-color :white; /* Définition de la couleur du fond */
+    text-align : center; /* Alignement du texte */
+    font-size: 30px;
+    font-family: fantasy;
+    opacity: 80%;
+    border-radius: 10px;
+    text-decoration: underline;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.titre2{
+    background-color: violet;
+    opacity: 60%;
+    border-radius: 10%;
+    border: 1px solid black;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.strophe{
+    text-align:center; /*le texte sera aligné au centre*/
+    color :black; /*le texte est en bleu, les couleurs sont codées #rrvvbb de #000000 à #FFFFFF*/
+    background-color: white;
+    font-weight : 800 ;
+    opacity: 80%;
+    border-radius: 5%;
+    border: 1px solid black;
+}
+.surligner {
+    color : violet; /*le texte est en rouge */
+    font-weight: bold; /*la police est en gras */
+    }
+.poeme{
+    padding : 25px 30px 25px 30px; /*marges intérieures :haut, droite, bas puis gauche*/
+    background-image: url("./fourmi.jpg");
+}
+.lien{
+    width: 40%;
+    background-color:white;
+    padding : 20px 20px 20px 20px;
+    position: absolute;
+    left: 50px;
+    height: 50%;
+    opacity: 80%;
+    border: 2px red solid;
+}
+.comp1{
+    border: 5px violet solid;
+    position: absolute;
+    top: 80px;
+    margin-right: 0px;
+    margin-left : 620px;
+    width: 40%; /* largeur du bloc 70% de la page */
+    height : auto;/*hauteur du bloc (auto ici) */
+    background-color : white;
+    opacity: 80%;
+    padding: 40px 20px 40px 20px;
+}
