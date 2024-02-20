@@ -26,47 +26,59 @@ html {
   }
   
   .Python {
-    border: 1px black solid;
+    border: 1px white solid;
     border-radius: 25%;
     padding: 20px 10px 20px 10px;
     background-image: url('Ressources/PYTHONlogo.png');
     background-size: 100%;
-    width: 70px;
+    width: 90px;
     margin-left: auto;
     margin-right: auto;
+    height: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
   .JavaScript {
-    border: 1px black solid;
+    border: 1px white solid;
     border-radius: 25%;
     padding: 20px 10px 20px 10px;
     background-image: url('Ressources/OIP.jpeg');
     background-size: 100%;
-    width: 70px;
+    width: 90px;
     margin-left: auto;
     margin-right: auto;
+    height: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
   .HTML {
-    border: 1px black solid;
+    border: 1px white solid;
     border-radius: 25%;
     padding: 20px 10px 20px 10px;
     background-image: url('Ressources/HTMLlogo.png');
     background-size: 100%;
-    width: 70px;
+    width: 90px;
     margin-left: auto;
     margin-right: auto;
+    height: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
   .CSS {
-    border: 1px black solid;
+    border: 1px white solid;
     border-radius: 25%;
     padding: 20px 10px 20px 10px;
     background-image: url('Ressources/CSSlogo.png');
     background-size: 100%;
-    width: 40px;
+    width: 90px;
     margin-left: auto;
     margin-right: auto;
+    height: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
   }
   
   
@@ -79,4 +91,9 @@ html {
   .enfant {
     margin: 60px;
     width: 100%;
+  }
+  h2{
+    font-family: cursive;
+    text-decoration: underline;
+    font-size: 2rem;
   }
