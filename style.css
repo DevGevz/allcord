@@ -1,99 +1,45 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    background-color: black;
-  }
-  
-  .img {
-    width: 100px;
-    height: auto;
-  }
-  
-  .compartiment {
-    color: black;
-    width: 45%;
-    padding: 20px 10px 20px 10px;
-    border-radius: 25%;
-    border: 1px yellow solid;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
-  .Python {
-    border: 1px white solid;
-    border-radius: 25%;
-    padding: 20px 10px 20px 10px;
-    background-image: url('Ressources/PYTHONlogo.png');
-    background-size: 100%;
-    width: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 65px;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  
-  .JavaScript {
-    border: 1px white solid;
-    border-radius: 25%;
-    padding: 20px 10px 20px 10px;
-    background-image: url('Ressources/OIP.jpeg');
-    background-size: 100%;
-    width: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 65px;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  
-  .HTML {
-    border: 1px white solid;
-    border-radius: 25%;
-    padding: 20px 10px 20px 10px;
-    background-image: url('Ressources/HTMLlogo.png');
-    background-size: 100%;
-    width: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 65px;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  
-  .CSS {
-    border: 1px white solid;
-    border-radius: 25%;
-    padding: 20px 10px 20px 10px;
-    background-image: url('Ressources/CSSlogo.png');
-    background-size: 100%;
-    width: 90px;
-    margin-left: auto;
-    margin-right: auto;
-    height: 65px;
-    margin-top: auto;
-    margin-bottom: auto;
-  }
-  
-  
-  .parent {
-    border: 3px white solid;
+body {
+    background-color: blanchedalmond;
+}
+
+.head {
     display: flex;
-  
-  }
-  
-  .enfant {
-    margin: 60px;
-    width: 100%;
-  }
-  h2{
-    font-family: cursive;
-    text-decoration: underline;
-    font-size: 2rem;
-  }
+}
+
+
+.center {
+    text-align: center;
+}
+.logo{
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px black;
+}
+h1 {
+    text-align: center;
+    font-size: 25px;
+    text-decoration: underline double;
+    color: #a52e0a;
+}
+
+.center .img2 {
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border: 1px solid;
+    border-radius: 2%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+    background-image: linear-gradient(to bottom, rgb(186, 236, 186), rgb(251, 255, 0), #a52e0a);
+    box-shadow: -10px 19px 10px black;
+}
+
+.center .text p {
+    background-color: bisque;
+    text-align: right;
+    box-shadow: 5px 10px 60px black;
+    padding: 17px;
+    border-radius: 10px;
+    color: #a52e0a;
+    font-weight: 600;
+}
